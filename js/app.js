@@ -99,8 +99,8 @@
         //for(let i=0; i<optionLen; i++){
         	//if(parseInt(optionContainer.children[i].id) === currentQuestion.answer){
               optionContainer.children[i].classList.add("correct");  		
-        	}
-        }   
+        	//}
+        //}   
        
      }
    attempt++;
