@@ -14,7 +14,7 @@
  let availableOptions = [];
  let correctAnswers = 0;
  let attempt = 0;
-
+ 
 
  // push the questions into  availableQuestions Array
  function setAvailableQuestions(){
@@ -93,7 +93,7 @@
      	element.classList.add("wrong");
      	// add the indicator to wrong mark
      	updateAnswerIndicator("wrong");
-
+            
         // if the answer is incorrect then show the correct option by adding green color the correct option
         const optionLen = optionContainer.children.length;
         for(let i=0; i<optionLen; i++){
@@ -136,6 +136,16 @@
    }
  }
 
+function finish(){
+  if(questionCounter === questionCounter)
+      quizOver();
+   else{
+      quizBox.classList.add("hide");
+      // show result Box
+      resultBox.classList.remove("hide");
+      quizResult();
+   }
+ }
  function quizOver(){
  	// hide quiz Box
  	quizBox.classList.add("hide");
