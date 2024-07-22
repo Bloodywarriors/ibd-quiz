@@ -1945,7 +1945,379 @@ const quiz = [
     options: ['Isomerized pellets','CO2 extracts','Whole cones','Reduced extracts'],
     answer:3,
   }
+  {
+    q:'In which plant performance improvement system are operators trained to pay attention to detail, take pride in their equipment, and to adopt a zero defect policy?',
+    options: ['Total productive maintenance (TPM)','The 5S system','Reliability-centred maintenance (RCM)','Planned preventative maintenance'],
+    answer:0,
+  },
+  {
+    q:'Why are beer quality parameters expressed as a range, rather than a single precise figure? ',
+    options: ['Because the samples can change whilst waiting to be analysed','Because beer is made from natural materials that are variable','Because the laboratory tests do not give repeatable results','Because the laboratory instruments used are not accurate enough'],
+    answer:1,
+  },
+  {
+    q:'A control chart is most effective for showing which of the data',
+    options: ['The breakdown of electricity usage around a brewery','Showing trends of an analytical parameter','Cost of production in each department','Pore sizes in a sterile filter membrane'],
+    answer:1,
+    img:'img/trend.jpg'
+  },
+  {
+    q:'Triangular taste tests involve',
+    options: ['three tasters tasting the same beer','tasting three samples which are all different','tasting three samples; two the same and one different','representatives from three breweries tasting the same beer'],
+    answer:2,
+  },
+  {
+    q:'Beer is returned with an acetaldehyde (Sour apple) taste taint. What is the probable cause of this flavour fault?',
+    options: ['Contamination of beer by caustic','Infected beer by bacteria or wild yeast','Contaminant of beer with chlorine based sterilant','Contaminant with ammonia refrigerant'],
+    answer:1,
+  },
+  {
+    q:'Dissolved oxygen is detrimental to final beer quality because it can cause',
+    options: ['the beer to over-foam','the beer to develop an unpleasant sulphury aroma (“light struck”)','cardboard and papery flavours as well as haze','the colour of the beer to decrease'],
+    answer:2,
+  },
+  {
+    q:'Enterobacter is a source of quality problems in brewing because it...',
+    options: ['its a standard beer spoilage organism','produces off flavours in wort','reduces oxygen in wort','indicate water pollution'],
+    answer:3,
+  },
+  
+  {
+    q:'One of the benefits of a Quality System is that',
+    options: ['operations are carried out according to traditional methods','operations are carried out in the quickest method possible','operations are carried out according to defined procedures','operations can be carried out by untrained personnel'],
+    answer:2,
+  },
+  
+  {
+    q:'Only one of the following statements is true. Which is it? Documented procedures are there to:',
+    options: ['be referred to during audits','explain to visitors how the brewery is operated','explain to suppliers why the brewery has set a particular standard','explain what has to be done, when and how it should be done'],
+    answer:3,
+  },
+  
+  {
+    q:'Choose from the following list the TWO best combination of properties for formulated brewery detergent ?',
+    options: ['A&B','B&C','B&D','C&E','A&D'],
+    answer:2,
+    img:'img/bd.jpg'
+  },
+  
+  {
+    q:'Which of the following methods is used for rapid determination of the hygiene of a tank?',
+    options: ['Plating rinse water samples','Swabbing and plating sample','Visual inspection','Swabbing and bioluminescence'],
+    answer:3,
+  },
+  
+  {
+    q:'In a formulated detergent what is the function of a chelating agent?',
+    options: ['Active and dissolves organic soil','A material which can be used to reduce surface tension (wetting), the surface','Materials which can complex metal ions in solution, thereby preventing precipitation of the insoluble salts of the metal ions','A material which assists the rinsing of the detergent from the surface of the vessel'],
+    answer:2,
+  },
+  
+  {
+    q:'A safety risk associated with strong oxidising agent is that....',
+    options: ['A fire hazard','Scavenge oxygen from atmosphere','Corrosive when dilute','Degrade seals and hoses'],
+    answer:0,
+  },
+  
+  {
+    q:'Calculate the amount of water that must be added to 100 hl of beer at 6.5% ABV to produce a beer containing 5% ABV',
+    options: ['10 hl','30 hl','40 hl','50 hl'],
+    answer:1,
+  },
+  
+  {
+    q:'Which effluent measurement is used to evaluate the amount of “treatment” required in a effluent plant?',
+    options: ['Flow rate','Temperature','Volume','COD'],
+    answer:3,
+  },
+  {
+    q:'Which of the following treatments are required for water to be used as process water?',
+    options: ['Removal of sulphates','Removal of bi- carbonates','Removal of chlorides','Removal of calcium'],
+    answer:1,
+  },
+  {
+    q:'Which of the following property of carbon dioxide is incorrect?',
+    options: ['It is colourless','It asphyxiates','It is toxic at high levels','It is lighter than air'],
+    answer:3,
+  },
+  {
+    q:'Which set of operations most accurately represents the goals of sustainable development?',
+    options: ['To recycle glass and cardboard','To distribute the beer via wholesalers','To minimise use of outside resources','To use cold detergents for sterilisation'],
+    answer:2,
+  },
+  {
+    q:'Which two of the following Cities are associated with Lager Beer?',
+    options: ['D&E','A&B','C&D','B&D','A&E'],
+    answer:0,
+    img:'img/de.jpg'
+  },
+  {
+    q:'Which two of the following represent reasons for storing beer in bright beer tank? ',
+    options: ['A&C','B&C','E&D','A&F','E&A','C&D'],
+    answer:1,
+    img:'img/bc.jpg'
+  },
+  {
+    q:'Which of the following filter designs does not uses diatomaceous earth for filtration',
+    options: ['cross flow filter','candle filter','plate and frame filter','horizontal screen filter'],
+    answer:0,
+  },
+  {
+    q:'Which of the three following products can be used of filter aids on a plate and frame filter?',
+    options: ['A,B&D','B,C&F','A,D&F','E,D&F','B,C&D','B,D&F'],
+    answer:0,
+    img:'img/abd.jpg'
+  },
+  {
+    q:'Which type of maintenance task is usually associated with the infrared thermography (thermal imaging)?',
+    options: ['Calibration','Lubrication','Lubricationg','Visual inspection'],
+    answer:2,
+  },
+  {
+    q:'Which of the following maintenance methods best describes “corrective maintenance”?',
+    options: ['Total productive maintenance (TPM)','The 5S system','Breakdown Maintenance','Breakdown Maintenance'],
+    answer:2,
+  },
+  {
+    q:'Which process in a Quality System, should initiate corrective action?',
+    options: ['Product specification','Process specification','Final inspection','Performance monitoring'],
+    answer:0,
+  },
 
+  {
+    q:'Which of the following statements about process control charts is correct?',
+    options: ['A wide distribution curve indicates good control','A rolling average graph indicates the individual lows and highs','A cumulative sum (cusum) chart emphasises the direction of a trend','A simple chart plotting individual results is best for controlling a process'],
+    answer:2,
+  },
+  {
+    q:'Trueness to type profiling is used by (trained) tasters to:',
+    options: ['Determine whether a beer meets the required flavour standards','Determine whether or not a beer has been packaged correctly','Assess the shelf-life potential of beers','Assess the level of contaminant present in a beer'],
+    answer:0,
+  },
+  {
+    q:'Which of the following pairs of flavour descriptors do not relate to oxidised beer?',
+    options: ['Cardboardy and harsh','Papery and bready','Phenolic and sulphury','Bready and stale'],
+    answer:2,
+  },
+  {
+    q:'What typically happens to the dissolved oxygen content of beer in a bright beer tank?',
+    options: ['It gradually reduces','It gradually increases','It remains unchanged until transferred to filler','It combines with dissolved nitrogen to form nitrogen dioxide'],
+    answer:0,
+  },
+  {
+    q:'The maximum level for dissolved oxygen in packaged beer generally accepted as good practice is ',
+    options: ['1        ppb (parts per billion)','10      ppb (parts per billion)','100    ppb (parts per billion)','1000  ppb (parts per billion)'],
+    answer:2,
+  },
+  {
+    q:'Which of the following organisms is termed "aerobic":',
+    options: ['Wild yeast','Acetobacter','Lactobacillus','Zymomonas'],
+    answer:1,
+  },
+  {
+    q:'Which of the following organisms has the appearance of “long rods” when viewed under the microscope in finished beer?',
+    options: ['Lactobacillus ','Lactobacillus ','E .coli','Obesumbacteria'],
+    answer:0,
+  },
+  {
+    q:'Which procedure in a Quality System ensures that the instructions brewery employees are working to are current and valid?',
+    options: ['Corrective action ','Review','Audit','Document control'],
+    answer:3,
+  },
+  {
+    q:'After the first three steps listed below:',
+    options: ['A','B','C','D'],
+    answer:2,
+    img:'img/c1.jpg'
+  },
+  {
+    q:'Wetting agents in a detergent formulation serve to:',
+    options: ['Reduce surface tension','Disperse soil','Dissolve soil','Remove scale'],
+    answer:0,
+  },
+  {
+    q:'The purpose of a detergent is to:',
+    options: ['Clean & sterilise','Kill all micro-organism','Prevent re-infection ','Remove soil'],
+    answer:1,
+  },
+  {
+    q:'A large diameter pipe in a cleaning circuit may not be as effectively cleaned as smaller ones because:',
+    options: ['The heat losses are greater','The pressure in the pipe is lower','The flow velocity is lower','The surface area to be cleaned is greater'],
+    answer:2,
+  },
+  {
+    q:'Burst rinsing is often a feature of the CIP cycle when tanks are cleaned using spray-balls. Why?',
+    options: ['It ensures more effective scavenging','Less water is used','The rinsing is more effective','The final burst rinse can be recovered for subsequent re-use'],
+    answer:2,
+  },
+  {
+    q:'Which combination of the following components is present in a typical total loss CIP system?',
+    options: ['A','B','C','D'],
+    answer:3,
+    img:'img/d1.jpg'
+  },
+
+  {
+    q:'52. Which of the following is a useful way of depicting the relative contributions (from different areas of the brewery) of effluent volume?',
+    options: ['Histogram (vertical bar chart)','Graph','Pie chart','Distribution curve'],
+    answer:2,
+  },
+  {
+    q:'53. In which one of the following pairings of effluent parameters are non-negotiable?',
+    options: ['Temperature and suspended solids','pH and temperature','pH and COD (Chemical Oxygen Demand)','Suspended solids and BOD (Biological Oxygen Demand)'],
+    answer:1,
+  },
+  {
+    q:'Which of the following conditions are suitable for caustic cleaning?',
+    options: ['cleaning aluminium kegs or casks','cleaning under an atmosphere of carbon dioxide ','for descaling lines and vessels','removal of heavy organic soil'],
+    answer:3,
+  },
+  {
+    q:'High gravity brewing is when',
+    options: ['Beer is packaged at higher alcoholic strength','The wort is boiled for a long time','Beer is diluted post filtration','When producing low carbohydrate beer'],
+    answer:2,
+  },
+  {
+    q:'The maximum safe concentration of atmospheric carbon dioxide is:',
+    options: ['50 ppm (0.005%) by volume','500 ppm (0.05%) by volume','5,000 ppm (0.5%) by volume','50,000 ppm (5.0%) by volume'],
+    answer:2,
+  },
+  {
+    q:'57. What is meant by the “carbon cycle”?',
+    options: ['Describes how carbon is released and then recaptured by plants and algae','It is a way or reducing carbon emissions by carbon dioxide capture','Policy to move away from fossil fuels to use clean renewable technologies ','Recycling as much product within the brewery and tanking off other solids to reduce effluent'],
+    answer:0,
+  },
+  {
+    q:'Which of the following sources of effluent is likely to have the highest level of organic effluent?',
+    options: ['Dropping detergent tanks','Sludge form external keg washer','Final rinse water','Cellar tank bottoms'],
+    answer:3,
+  },
+  {
+    q:'Which of the following procedures is wasteful of process water?',
+    options: ['not repairing condensate main leaks','uncontrolled use of wash down hoses','excessive use of chase water at product changeovers','excessive vessel rinsing during CIP'],
+    answer:3,
+  },
+  {
+    q:'EMS - Environmental Management System is',
+    options: ['Is a procedure for a company to evaluate and reduce its environmental impact','Is a regulatory system which sets limits and targets for environmental performance','Is part of the purchasing process to ensure a company only buys “green” products','Is an environmental way of working where all activities are conducted in a “green” way'],
+    answer:3,
+  },
+  {
+    q:'The delicate flavour of lager comes principally from the use of',
+    options: ['Hops which are grown at relatively high altitudes in Europe','Yeast which flocculates early',' Malt which is relatively under modified and under kilned','Water which is free of organic material '],
+    answer:2,
+  },
+  {
+    q:'The most important purpose of a glass beer bottle is to',
+    options: ['Provide and attractive product to tempt the consumer','Protect the quality of beer during its shelf life ','Use a container which is easily recycled','Prevent sun struck flavours by tinting the glass'],
+    answer:1,
+  },
+  {
+    q:'which one of the statements about bright beer handling is NOT true?',
+    options: ['It is possible to freeze beer during trim chilling','CO2 remains in solution as the temperature rises during beer transfer','Foaming can cause haze','Beer that has foamed will have a lower head stability after packaging'],
+    answer:1,
+  },
+  {
+    q:'Calculate the final bitterness (IBU) when beer tank A & B are blended together using the data below. Tank A 100 hl at 30 IBU and Tank B 40 hl at 23 IBU',
+    options: ['25 IBU','26 IBU','27 IBU','28 IBU'],
+    answer:3,
+  },
+  {
+    q:'Which of the two following reasons is it important to measure beer pH?',
+    options: ['A&B','C&D','A&C','B&D','B&C'],
+    answer:3,
+    img:'img/bd1.jpg'
+  },
+  {
+    q:'Which constituent in often present in lager is responsible for the flavour describe as cooked veg, sweetcorn or tomato?',
+    options: ['Dimethyl sulphide','Trans-2-nonenal','Lactic acid','Ethyl acetate'],
+    answer:0,
+  },
+  {
+    q:'which two of the following are features of the triangular (three glass) taste test?',
+    options: ['A&B','C&D','A&C','B&D','B&C'],
+    answer:3,
+    img:'img/bd2.jpg'
+  },
+  {
+    q:'which two of the following options can assist in the control of dissolved oxygen in beer?',
+    options: ['A&C','B&C','D&E','A&F','A&E','C&D'],
+    answer:2,
+    img:'img/de1.jpg'
+  },
+  {
+    q:'A sampling schedule is a plan',
+    options: ['Specifying where, when and how frequently samples of the product in process and at the end of the process are taken','Specifying the number of samples that should be taken annually','Specifying which operators should take the samples','Specifying which equipment should be used to analyse the samples'],
+    answer:0,
+  },
+  {
+    q:'Flavour profiles of beers are typically displayed pictorially using:',
+    options: ['flow charts','pie charts','x, y graphs','spider diagrams'],
+    answer:3,
+  },
+  {
+    q:'Which list below contains the four correct basic flavours?',
+    options: ['sweet, salty, hoppy and malty','sweet, salty, sour, bitter','sweet, salty, bitter and fruity','sweet, salty, fruity and hoppy'],
+    answer:1,
+  },
+  {
+    q:'which of the following tasks are the responsibility of a quality systems manager?',
+    options: ['A,B&D','B,C&F','A,D&F','E,D&F','B,C&D','C,D&E'],
+    answer:5,
+    img:'img/cde.jpg'
+  },
+  {
+    q:'When treated with the dye, crystal violet gram-positive bacteria appear:',
+    options: ['blue/black under a microscope','Violet / purple under a microscope','colourless under a microscope','orange under a microscope'],
+    answer:1,
+  },
+  {
+    q:'Obesumbacterium converts sugar to ',
+    options: ['Diacetyl and dimethylsulphide','Alcohol and carbon dioxide','Lactic acid ','Acetaldehyde and hydrogen sulphide'],
+    answer:0,
+  },
+  {
+    q:'The aim of quality assurance is to:',
+    options: ['determine where workers have made mistakes during production','find faults with the beer','assure the quality of product and package reaching the point of consumer consumption meets agreed company specifications','test the suppliers` ability to provide raw materials that are consistently in specification'],
+    answer:2,
+  },
+  {
+    q:'A Quality Assurance System ensures that:',
+    options: ['out-of-spec. product is labelled as such prior to release to trade','employee absenteeism is posted on notice boards','visitors to the brewery are impressed when they visit','current practice is compared with official procedures'],
+    answer:3,
+  },
+  {
+    q:'Which of the following best describes sterilisation?',
+    options: ['To reduce the number of bacteria present by 99.9% but not viruses and fungi','To destroy most pathogenic micro-organisms but not usually bacterial spores','To kill all forms of life including transmissible agents such as fungi, bacteria and spores ','To remove visible debris, dirt and dust'],
+    answer:2,
+  },
+  {
+    q:'Which of the following cleaning agents is the best one to remove organic soil?',
+    options: ['Caustic soda','Acid detergent','Steam','Dilute hydrogen peroxide solution'],
+    answer:0,
+  },
+  {
+    q:'During CIP, what sort of flow is the best for cleaning pipework?',
+    options: ['Laminar flow < 1.5m/s','Fast flow > 2.5m/s','Turbulent flow > 1.5m/s','Smooth flow >1.0 m/s and <1.5 m/s'],
+    answer:2,
+  },
+  {
+    q:'Which of the following is correct? The FOUR factors that affect cleaning the inside of a vessel:',
+    options: ['A','B','C','D'],
+    answer:0,
+    img:'img/a1.jpg'
+  },
+  {
+    q:'Which of the following best describes the disadvantages of breakdown monitoring?',
+    options: ['A','B','C','D'],
+    answer:3,
+    img:'img/d2.jpg'
+  },
+  {
+    q:'What is the purpose of a post-sterilant rinse?',
+    options: ['To remove traces of detergent','To remove traces of sterilant if there is a possibility of tainting','To remove traces of rinsing agent and ensure sterilisation','To leave a fine layer of sterilant on the surface of the vessel in order to ensure sterilisation'],
+    answer:1,
+  }
 ]
 
 
