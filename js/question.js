@@ -1,12 +1,13 @@
 
 
 // Array of Objects
-//qustion 60-316 get from IBD 2022
+//question 60-316 get from IBD 2022
+//question 317-... website
 const quiz = [
   {
     q: '1. Burtonisation or Water Treatment for brewing Ales involves the addition of:',
     options: ['calcium carbonate', 'calcium sulphate', 'sodium chloride', 'zinc sulphate'],
-    answer: 1,
+    answer: 1
   },
   {
     q: '2. Which of the following beer "attributes" is provided by hop oils?',
@@ -102,7 +103,7 @@ const quiz = [
   },
   {
     q: '20. During fermentation what is the correct order of yeast growth?',
-    options: ['Lag - Growth - Stationary - Settlement', 'Lag - Growth - Stationary - Settlement', 'Settlement - Growth - Stationary - Lag', 'Settlement - Growth - Stationary - Lag'],
+    options: ['Lag - Growth - Stationary - Settlement', 'Growth - Lag - Stationary - Settlement', 'Settlement - Growth - Stationary - Lag', 'Lag - Growth - Settlement - Stationary'],
     answer: 0,
   },
   {
@@ -1944,7 +1945,11 @@ const quiz = [
     q:'Which type of hop product prevents skunky or light-struck aroma when beer is exposed to UV light?',
     options: ['Isomerized pellets','CO2 extracts','Whole cones','Reduced extracts'],
     answer:3,
-  }
+  },
+
+
+
+
   {
     q:'In which plant performance improvement system are operators trained to pay attention to detail, take pride in their equipment, and to adopt a zero defect policy?',
     options: ['Total productive maintenance (TPM)','The 5S system','Reliability-centred maintenance (RCM)','Planned preventative maintenance'],
@@ -2318,6 +2323,9 @@ const quiz = [
     options: ['To remove traces of detergent','To remove traces of sterilant if there is a possibility of tainting','To remove traces of rinsing agent and ensure sterilisation','To leave a fine layer of sterilant on the surface of the vessel in order to ensure sterilisation'],
     answer:1,
   }
+
+
+
 ]
 
 
